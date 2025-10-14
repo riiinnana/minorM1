@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+</head>
+
+<body style="background-color: #e4e4b3">
+    <h3>Навигация</h3>
+    <ul>
+        <li><a href="../get_elements/index.html" target="_self">Задание 13-14_01</a></li>
+        <li><a href="../Passportchange/index.html" target="_self">Задание 13-14_02</a></li>
+        <li><a href="../Task13-14_03/index.html" target="_self">Задание 13-14_03</a></li>
+    </ul>
+
+    <td>
+        <h2>Размен суммы</h2>
+        <p>Известна денежная сумма. Разменять её купюрами 500, 100, 10 и монетой 2 руб., если это возможно.</p>
+
+        <form id="UserEnter" action="https://www.bing.com/search" target="_blank">
+            <label>Введите сумму: <input id="a" type="number" min="0" value="782"></label><br><br>
+            <label>Результат: <input id="result" name="q" value="не определен" size="50"></label><br><br>
+
+            <input id="verify" type="button" value="Рассчитать">
+            <input id="send" type="button" value="Отправить">
+        </form>
+
+        <table id="outputTable" style="display:none;">
+            <thead>
+                <tr>
+                    <th>Номинал</th>
+                    <th>Количество</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>500</td>
+                    <td id="out500">0</td>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td id="out100">0</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td id="out10">0</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td id="out2">0</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p id="note"></p>
+
+</body>
+
+<script src="./index.js"></script>
+
+</html>
